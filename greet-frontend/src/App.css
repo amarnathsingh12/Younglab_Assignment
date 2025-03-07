@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 360px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#error {
+  color: red;
+  font-size: 16px;
+}
+
+#message {
+  color: #2ecc71;
+  font-size: 16px;
+}
