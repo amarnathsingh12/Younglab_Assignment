@@ -34,10 +34,6 @@ This project demonstrates a simple backend and frontend interaction. It consists
 
 Follow these steps to get the project running locally:
 
-### Prerequisites
-
-- Node.js (version 14 or above) is required. If you don't have it installed, you can download it from [here](https://nodejs.org/).
-- A modern browser (Google Chrome, Firefox, etc.).
 
 ### Setup
 
@@ -55,7 +51,7 @@ cd greeting-app
 1. Navigate to the `greeting-api` folder (or the root folder where your `server.js` file is located):
 
    ```bash
-   cd backend
+   cd greeting-api
    ```
 
 2. Install the necessary dependencies:
@@ -74,10 +70,10 @@ cd greeting-app
 
 #### 3. Frontend Setup (React)
 
-1. Navigate to the `frontend` folder:
+1. Navigate to the `greet-frontend` folder:
 
    ```bash
-   cd ../frontend
+   cd greet-frontend
    ```
 
 2. Install the necessary dependencies:
@@ -129,45 +125,7 @@ cd greeting-app
     "Name is required."
     ```
 
-## Bonus (Optional but Preferred): Deployment
 
-You can deploy both the backend and frontend on platforms like **Vercel** or **Render** for easy hosting.
-
-### Deployment on Vercel (Frontend)
-
-1. Push your frontend code to a GitHub repository.
-2. Go to [Vercel](https://vercel.com/), sign up, and click "New Project."
-3. Import the repository and follow the instructions to deploy the frontend.
-
-### Deployment on Render (Backend)
-
-1. Push your backend code to a GitHub repository.
-2. Go to [Render](https://render.com/), sign up, and click "New Web Service."
-3. Connect your GitHub account and select the backend repository.
-4. Follow the instructions to deploy the backend API.
-
-Once deployed, you can update the `fetch` URL in your frontend app to point to the live backend API.
-
-## Folder Structure
-
-```
-greeting-app/
-├── backend/                # Express API server
-│   ├── server.js           # API endpoint (Express server)
-│   └── package.json        # Backend dependencies
-├── frontend/               # React app
-│   ├── public/
-│   ├── src/
-│   ├── App.js              # Main component (React)
-│   └── package.json        # Frontend dependencies
-└── README.md               # This file
-```
-
-## Acknowledgements
-
-- [Node.js](https://nodejs.org/) - Backend runtime environment.
-- [Express.js](https://expressjs.com/) - Web framework for Node.js.
-- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
 
 ## License
 
