@@ -30,22 +30,6 @@ This project demonstrates a simple backend and frontend interaction. It consists
   - A button that fetches the greeting message from the backend when clicked.
   - Displays the message or error on the page.
 
-## Getting Started
-
-Follow these steps to get the project running locally:
-
-
-### Setup
-
-#### 1. Clone the Repository
-
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/greeting-app.git
-cd greeting-app
-```
-
 #### 2. Backend Setup (Node.js & Express)
 
 1. Navigate to the `greeting-api` folder (or the root folder where your `server.js` file is located):
