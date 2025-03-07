@@ -1,6 +1,5 @@
 Here’s a **README.md** file that I can use for my project:
 
-```markdown
 # Greeting App with Node.js and React
 
 This project demonstrates a simple backend and frontend interaction. It consists of two parts:
